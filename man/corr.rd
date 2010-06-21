@@ -1,18 +1,18 @@
 \name{corr}
+\Rdversion{1.1}
 \alias{corr}
-\title{ Correlation file to be used for example by GExMap }
+\docType{data}
+\title{
+Correspondence file used as an example by GExMap
+}
 \description{
- Correlation between ensembl ID and microarray ID.
+Correspondence between ensembl ID and microarray ID.
 }
+\usage{data(corr)}
 \details{
-  This dat set included in the GExMap package as an example.
+This dat set included in the GExMap package as an example.
 }
-\value{
+\source{
+http://gexmap.voila.net/index.html
 }
-\references{  }
-\author{ Nicolas Cagnard <nicolas.cagnard@inserm.fr> }
-\note{
-}
-\seealso{GExMap}
-\keyword{ misc }
-
+\keyword{datasets}
