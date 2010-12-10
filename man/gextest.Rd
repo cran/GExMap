@@ -1,12 +1,12 @@
 \name{gextest}
-\Rdversion{1.1}
 \alias{gextest}
-\title{
-Function of the GExMap package which performs the statistical analysis step.
-}
+\title{ Perform the statistical analysis step }
 \description{
-This function selects the chromosoms by two global tests comparing an estimated hazard genomic distribution to the real distribution extracted from the user list.
-If the chromosom is selected, a local analysis is performed to localize and test regions of interest.
+  This function selects the chromosoms by two global tests comparing an estimated hazard genomic distribution to the real distribution extracted from the user list.
+  If the chromosom is selected, a local analysis is performed to localize and test regions of interest .
+}
+\usage{
+gextest(genome.test, nhazard, results.graph, lim_chi, global_test_choice, pcorrd, pcorrv)
 }
 \arguments{
   \item{genome.test}{ All genomic data to be tested. }
@@ -20,26 +20,26 @@ If the chromosom is selected, a local analysis is performed to localize and test
 			4- CHI OR Wilcoxon is OK\\
 			Default value is set at 4.}
   \item{pcorrd}{ Choice of pvalue correction method for the global tests:\\
-     1- "Bonferroni"\\
-     2- "Holm"\\
-     3- "Hochberg"\\
-     4- "SidakSS"\\
-     5- "SidakSD"\\
-     6- "BH"\\
-     7- "BY"\\
+     1- "Bonferroni"
+     2- "Holm"
+     3- "Hochberg"
+     4- "SidakSS"
+     5- "SidakSD"
+     6- "BH"
+     7- "BY"
   }
   \item{pcorrv}{ Choice of pvalue correction method for the local tests:\\
-     1- "Bonferroni"\\
-     2- "Holm"\\
-     3- "Hochberg"\\
-     4- "SidakSS"\\
-     5- "SidakSD"\\
-     6- "BH"\\
-     7- "BY"\\
+     1- "Bonferroni"
+     2- "Holm"
+     3- "Hochberg"
+     4- "SidakSS"
+     5- "SidakSD"
+     6- "BH"
+     7- "BY"
   }
 }
 \details{
-This function is included in the GExMap package and could not be used independently.
+  This function is included in the GExMap package and should not be used independently.
 }
 \references{
 http://gexmap.voila.net/index.html
@@ -48,5 +48,5 @@ GExMap: An Intuitive Visual Tool to Detect and Analyze Genomic Distribution in M
 Nicolas Cagnard, Carlo Lucchesi, Gilles Chiocchia 
 }
 \author{
-Nicolas Cagnard <nicolas.cagnard@yahoo.fr>
+Nicolas Cagnard <nicolas.cagnard@gmail.com>
 }

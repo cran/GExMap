@@ -1,11 +1,8 @@
 \name{gexgraph}
-\Rdversion{1.1}
 \alias{gexgraph}
-\title{
-Produces graphics to illustrate genomic density and statistical test results
-}
+\title{ Produces graphics to illustrate genomic density and statistical test results }
 \description{
-Function of the GExMap package which produces graphics in pdf files with data produces by the gexmap() main function.
+  Function of the GExMap package which produces graphics in pdf files with data produces by the gexmap() main function.
 }
 \usage{
 gexgraph(genome.test, scale, results.graph, W, cytobands)
@@ -18,10 +15,10 @@ gexgraph(genome.test, scale, results.graph, W, cytobands)
   \item{cytobands}{ Matrix of genomic localization to draw cytobands }
 }
 \details{
-This function is included in the GExMap package and could not be used independently.
+   This function is included in the GExMap package and should not be used independently.
 }
 \value{
-This function produces a map in a pdf file by chromosom statistically validated.
+  This function produces on pdf file by chromosom statistically validated.
 }
 \references{
 http://gexmap.voila.net/index.html
@@ -30,5 +27,5 @@ GExMap: An Intuitive Visual Tool to Detect and Analyze Genomic Distribution in M
 Nicolas Cagnard, Carlo Lucchesi, Gilles Chiocchia 
 }
 \author{
-Nicolas Cagnard <nicolas.cagnard@yahoo.fr>
+Nicolas Cagnard <nicolas.cagnard@gmail.com>
 }

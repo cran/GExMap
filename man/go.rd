@@ -1,25 +1,21 @@
 \name{go}
-\Rdversion{1.1}
 \alias{go}
 \docType{data}
-\title{
-GO annotations data file.
-}
+\title{ GO data file }
 \description{
-List of all GO terms with IDs and descriptions.
+ List of GO ID and descriptions.
 }
 \usage{data(go)}
-\format{
-  Matrix saved in a Rdata file.
-}
 \details{
-Matrix with 3 columns: "id", "name" and "type" of each GO term.
+  This dat set included in the GExMap package as an example.
 }
 \source{
-http://www.ensembl.org/biomart/martview
+http://gexmap.voila.net/index.html
+Research Article JPB/Vol.2.1 051- 059(2009)/January 2009 doi:10.4172/jpb.1000060
+GExMap: An Intuitive Visual Tool to Detect and Analyze Genomic Distribution in Microarray-generated Lists of Differentially Expressed Genes
+Nicolas Cagnard, Carlo Lucchesi, Gilles Chiocchia 
 }
 \references{
 http://gexmap.voila.net/index.html
 }
 \keyword{datasets}
-

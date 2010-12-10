@@ -13,8 +13,8 @@ GExMap: A visual, intuitive, easy to use software giving access to a new type of
 \tabular{ll}{
 Package: \tab GExMap\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2010-06-21\cr
+Version: \tab 1.1.2\cr
+Date: \tab 2010-12-10\cr
 License: \tab GPL version 2 or newer\cr
 Depends: \tab multtest\cr
 LazyLoad: \tab yes\cr
@@ -23,7 +23,7 @@ LazyLoad: \tab yes\cr
 \author{
 Nicolas Cagnard
 
-Maintainer: Nicolas Cagnard <nicolas.cagnard@yahoo.fr>
+Maintainer: Nicolas Cagnard <nicolas.cagnard@gmail.com>
 }
 \references{
 http://gexmap.voila.net/index.html

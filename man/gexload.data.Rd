@@ -1,11 +1,8 @@
 \name{gexload.data}
-\Rdversion{1.1}
 \alias{gexload.data}
-\title{
-Function from the GExMap package which upload data files to be used by GExMap
-}
+\title{ Function from the GExMap package which upload data files to be used by GExMap }
 \description{
-Automatically uploads (or ask to the user) the data.Rdata file and the *.Rdata file specific to the user identifier type.
+  Upload automatically (or ask to the user) the data.Rdata file and the *.Rdata file specific to the user identifier type.
 }
 \usage{
 gexload.data(source, genome)
@@ -15,10 +12,7 @@ gexload.data(source, genome)
   \item{genome}{ ENSEMBL genome whith all genomic informations }
 }
 \details{
-Upload the genome Rdata file.
-}
-\value{
-	\item{ data }{ The uploaded genomic data file. }
+  This function is included in the GExMap package and should not be used independently.
 }
 \references{
 http://gexmap.voila.net/index.html
@@ -27,5 +21,5 @@ GExMap: An Intuitive Visual Tool to Detect and Analyze Genomic Distribution in M
 Nicolas Cagnard, Carlo Lucchesi, Gilles Chiocchia 
 }
 \author{
-Nicolas Cagnard <nicolas.cagnard@yahoo.fr>
+Nicolas Cagnard <nicolas.cagnard@gmail.com>
 }
