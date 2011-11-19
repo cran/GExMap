@@ -1,0 +1,14 @@
+fa28c60868f25535967ed061dba70bbe *DESCRIPTION
+77db73fe06b4fbe999d909ba0530ae01 *NAMESPACE
+9d0388ca03534542681a6539b9d0c739 *R/gexmap.R
+d26048f5ce2ac977094999c341b72646 *data/corr.rda
+4f430a1376fe9a8e5499a7d392a96807 *data/data.rda
+a079823ddee0f67a44156192ffc13f82 *data/datalist
+ebaf0e33da9211d663a1b56e2aa3b27b *data/go.rda
+f96a7262a16ef15c9ac805edd71d2186 *data/list.rda
+f475b06a3c7de73c9520376a4c0c4c47 *man/GExMap-package.Rd
+3dcb9f8e05abf498c761c67e0e8548ec *man/corr.Rd
+47df4f888084695838ff17a2b92fda03 *man/data.Rd
+dccbce30fdd702423b049f069d5014c1 *man/gexmap.Rd
+653ea11d6b142a29ca646e995dd63fad *man/go.Rd
+f04e63379ffdd49ec93e35f10ddc0c7b *man/list.Rd
